@@ -62,10 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
-
-
-
     }
 
     public void signUpClicked(View view){
@@ -91,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onFailure(@NonNull Exception e) {
                     Toast.makeText(MainActivity.this,e.getLocalizedMessage(), Toast.LENGTH_LONG).show();
-
                 }
             });
         }

@@ -72,7 +72,7 @@ public class FeedActivity extends AppCompatActivity {
                         // casting - çevir
                         String userEmail = (String) data.get("useremail");
                         String comment = (String) data.get("comment");
-                        String downloadUrl = (String) data.get("downlaodurl");
+                        String downloadUrl = (String) data.get("downloadurl");
 
                         Post post = new Post(userEmail, comment,downloadUrl);
                         postArrayList.add(post);
